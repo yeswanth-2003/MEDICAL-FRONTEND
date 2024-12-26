@@ -56,7 +56,7 @@ const togglemenu=()=>{
            <section id="Home">
                  <Home /> 
           </section> 
-          <section id="Services">
+          {/* <section id="Services">
                <Services />
           </section>
 
@@ -82,7 +82,7 @@ const togglemenu=()=>{
 
           <section id="Footer">
                <Footer /> 
-          </section>
+          </section> */}
 
         </div>
 
