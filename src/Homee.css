@@ -138,19 +138,16 @@
   .second img {
     width: 50px;
     height: 50px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
   }
   
   .second h3 {
     font-size: 15px;
-    font-weight: bold;
-    color: #333;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
   }
   
   .second p {
     font-size: 10px;
-    color: #777;
   }
   
 }
