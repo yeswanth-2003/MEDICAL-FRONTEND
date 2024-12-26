@@ -90,7 +90,7 @@
     text-align: center;
   }
 
-@media  screen and (max-width:425px) {
+@media  screen and (max-width:426px) {
   .home{
     display: flex;
     flex-direction: column;
