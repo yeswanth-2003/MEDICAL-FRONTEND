@@ -24,7 +24,7 @@ const togglemenu=()=>{
 
     return (
        <div>
-      
+{/*       
         <header>
         <div className="nav-container">
           
@@ -52,7 +52,7 @@ const togglemenu=()=>{
                 </div>
             </nav>
         </div>
-          </header>
+          </header> */}
            <section id="Home">
                  <Home /> 
           </section> 
