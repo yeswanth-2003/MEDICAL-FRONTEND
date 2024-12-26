@@ -1,0 +1,125 @@
+.footer {
+  
+    margin-left: 10%;
+    width: 80%;
+     color: black;
+     padding: 40px 0;
+     text-align: left;
+     font-family: Arial, sans-serif;
+   }
+   .footer svg{
+     color:#16a085;
+   }
+   
+   
+   .sb-footer-section-padding {
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+    
+   } 
+   
+   
+   .sb-footer-link {
+     min-width: 200px;
+     max-width: 300px;
+   }
+   
+   
+   .sb-footer-link-ajju {
+     padding: 10px;
+   }
+   
+   
+   .sb-footer-link-ajju h4 {
+     font-size: 18px;
+     margin-bottom: 15px;
+     font-weight: bold;
+   }
+   
+   
+   .sb-footer-link-ajju a {
+     color: #777777;
+     text-decoration: none;
+     margin-bottom: 8px;
+     display: block;
+   }
+   
+   .sb-footer-link-ajju a:hover {
+     text-decoration: underline;
+     color: #16a085;
+   }
+   
+   
+   .sb-footer-link-ajju ul {
+     list-style-type: none;
+     padding: 0;
+   }
+   
+   
+   .sb-footer-link-ajju ul li {
+     margin: 8px 0;
+   }
+   
+   .sb-footer-link-ajju ul li  {
+     color: #777777;
+     text-decoration: none;
+     font-size: 16px;
+   }
+   
+   .sb-footer-link-ajju ul li a:hover {
+     text-decoration: underline;
+   }
+   
+   
+   .sb-footer-link-ajju ul li {
+     display: inline-block;
+     margin-right: 15px;
+   }
+   
+   
+   @media (max-width: 768px) {
+     .sb-footer-section-padding {
+       flex-direction: column;
+       align-items: center;
+     }
+   
+     .sb-footer-link {
+       text-align: center;
+     }
+   
+     .sb-footer-link-ajju {
+       padding: 15px 0;
+     }
+   
+     .sb-footer-link-ajju h4 {
+       font-size: 20px;
+     }
+   
+     .sb-footer-link-ajju ul li {
+       display: block;
+       margin-bottom: 10px;
+     }
+     .footer{
+      margin-left:18%;
+     }
+   }
+   .bor-line{
+     height: 0.1px;
+     width: 100%;
+     margin-bottom: -30px;
+    
+     border: solid #77777735 1px;
+     margin-top: 20px;
+     border-radius: 1px;
+   
+   }
+   .end{
+     margin: 17.6px 0px 0px ;
+     color:#777777;
+     margin-top: 50px;
+     font-size: 28px;
+   }
+   span{
+     color:#16a085;
+   }

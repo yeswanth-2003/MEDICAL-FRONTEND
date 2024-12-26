@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  .paper {
+    padding: 30px;
+    background-color: #f4f4f4;
+  }
+  
+  .paper h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  
+  .cardten {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap:20px;
+  }
+  
+  
+  .first {
+    border:2px solid #16a085;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px;
+    height: 250px;
+    width:350px; 
+    
+  }
+  
+  .first img {
+    max-width: 20%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  
+  }
+  
+  .first h3 {
+    font-size: 1.4rem;
+    color: #444;
+    margin-bottom: 10px;
+  }
+  
+  .first p {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 15px;
+  }
+  
+  
+  .first button {
+    color: black;
+    border: 2px solid #16a085 !important;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .first button:hover {
+    background-color: #16a085;
+  }
+  @media (max-width: 768px) {
+    .first {
+      width: 80%; 
+      
+    }
+  }
+  
+  
+  @media (max-width: 480px) {
+    .first {
+      width: 100%; 
+      height: auto; 
+    }
+    .first button{
+      width: 130px;
+    }
+  
+    .paper h1 {
+      font-size: 1.8rem; 
+      margin-left: 10%;
+      
+    } 
+    .paper{
+      margin-left: 40%;
+    }
+  }
+  
