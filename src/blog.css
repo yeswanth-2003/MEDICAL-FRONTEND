@@ -3,6 +3,7 @@
   justify-content: space-between;
   padding-top: 100px; 
   width: 100%;
+  height: fit-content;
   /* flex-grow: 1; */
   
 }
@@ -70,7 +71,7 @@ button:hover {
         width: 100%;
       }
        .our h1{
-        margin-top: 20px 0;
+        margin-top: 10px;
         font-size: 35px;
         font-weight: bold;
         
