@@ -62,11 +62,11 @@ const togglemenu=()=>{
 
             <section id="About">
                <About /> 
-          </section>
+          </section> */}
 
           <section id="Book">
                <Book /> 
-          </section> */}
+          </section>
 
           <section id="Doctor">
                <Doctor /> 
