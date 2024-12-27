@@ -46,6 +46,8 @@
   .contentone button {
     padding: 10px 20px;
     background-color:white;
+    align-items: center;
+    justify-content: center;
     color: #16a08585;
     font-size: 16px;
     cursor: pointer;
@@ -53,6 +55,7 @@
     color:#16a085;
     border :2px solid #16a085 !important;
     width: 200px;
+    box-shadow: .2rem .2rem 0 rgba(22, 160, 133, .2);
   }
   
   .contentone button:hover {
@@ -65,7 +68,7 @@
     display: flex;
     justify-content: space-between;
     padding: 40px;
-    
+
   }
   
   .second {
@@ -73,6 +76,7 @@
     width: 22%;
     border: 2px solid #16a085;
     border-radius: 5px;
+    box-shadow: .2rem .2rem 0 rgba(22, 160, 133, .2);
   }
   
   .second img {
@@ -120,7 +124,7 @@
     font-size: 36px;
     margin-left: 0;
     width : 100%;
-    line-height: 1.8;
+    line-height: 1.6;
 
   }
   .contentone p{
@@ -136,8 +140,8 @@
   .boxes {
     display: flex;
     justify-content: space-between;
-    margin: 0;
-    padding: 0 2%;
+    margin: 10px 0;
+    padding: 0 0;
     width: 100%;
     flex-wrap: wrap;
   }
