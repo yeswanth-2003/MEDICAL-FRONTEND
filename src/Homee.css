@@ -104,10 +104,12 @@
   .contentone{
     max-width: 100%;
     margin: 0 0;
+    width: 100%;
     padding: 0 10%;
+    text-align: justify;
   }
   .contentone h2{
-    font-size: 30px;
+    font-size: 25px;
     margin-left: 0;
     width : 100%;
   }
@@ -117,7 +119,6 @@
     width : 100%;
   }
   .contentone button {
-    font-size: 20px;
     width: 200px;
     font-weight: 400;
     padding-bottom: 20px;
@@ -126,11 +127,12 @@
     display: flex;
     justify-content: space-between;
     margin: 0;
+    padding: 0 2%;
     width: 100%;
   }
   .second {
     text-align: center;
-    width: 22%;
+    width: 24%;
     border: 2px solid #16a085;
     border-radius: 5px;
   }

@@ -59,9 +59,10 @@
           margin: 0;
         }
         .main h1{
-          font-size: 35px;
+          font-size: 30px;
           font-weight: bold;
           margin: 10px 0;
+          margin-top: 50px;
         }
         .middle{
           display: flex;

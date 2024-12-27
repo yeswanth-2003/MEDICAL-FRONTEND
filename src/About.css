@@ -21,6 +21,10 @@ button:hover {
     .aboutt h1{
         font-size: 30px;
         font-size: bold;
+        margin-top: 50px;
+    }
+    .content{
+        margin-top: -150px;
     }
     .img{
         display: flex;

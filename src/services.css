@@ -7,7 +7,6 @@
   
   .paper {
     padding: 30px;
-    background-color: #f4f4f4;
   }
   
   .paper h1 {
@@ -72,4 +71,27 @@
     background-color: #16a085;
   }
 
-  
+  @media  screen and (max-width:480px) and (min-width: 320px){
+    .paper h1{
+      font-size: 25px;
+      font-weight: bold;
+      margin-top: 50px;
+    }
+    .paper{
+      padding: 0 10%;
+      margin: 0 0;
+      justify-content: center;
+      align-items: center;
+    }
+    .first{
+      width: 100%;
+      padding: 0 0;
+      margin: 0 0;
+    }
+    .cardten{
+      align-items: center;
+      width: 100%;
+      padding: 0;
+      margin: 0;
+    }
+  }
