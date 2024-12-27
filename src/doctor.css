@@ -53,36 +53,45 @@
   
   
   
-  @media (max-width: 768px) {
-    .third {
-      width: 100%;
-      max-width: 300px;
-    }
-    .main{
-      margin-left:18%;
-    }
-    .main h1{
-      margin-left: -10%;
-    }
-  
-    .middle {
-      flex-direction: column;
-      align-items: center;
-    }
-  }
-  
-  @media (max-width: 480px) {
-    h1 {
-      font-size: 2rem;
-    }
-  
-    .third {
-      max-width: 250px;
-    }
-  
-    button img {
-      width: 18px;
-      height: 18px;
-    }
-  }
+      @media  screen and (max-width:480px) and (min-width: 320px){
+        .main{
+          width: 100%;
+          margin: 0;
+        }
+        .main h1{
+          font-size: 35px;
+          font-weight: bold;
+          margin: 10px 0;
+        }
+        .middle{
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+          align-items: center;
+          gap: 0px;
+          padding: 0px;
+          border-radius: 10px;
+        }
+        .third{
+          width: 80%;
+          margin: 10px 0;
+          border-radius: 10px;
+          border: 2px solid #16a085;
+        }
+        .third img{
+          width: 80%;
+          border-radius: 10px;
+          margin: 20px 0;
+          border: 2px solid #16a085;
+        }
+        .third h3{
+          font-size: 30px;
+          font-weight: bold;
+          margin: 0 0;
+          margin-top: -5px;
+        }
+        .icons{
+          margin-bottom: 10px;
+        }
+      }
   
