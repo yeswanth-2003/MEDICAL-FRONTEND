@@ -53,10 +53,10 @@ const togglemenu=()=>{
             </nav>
         </div>
           </header> */}
-           <section id="Home">
+           {/* <section id="Home">
                  <Home /> 
           </section> 
-          {/* <section id="Services">
+          <section id="Services">
                <Services />
           </section>
 
@@ -74,13 +74,13 @@ const togglemenu=()=>{
 
           <section id="Client">
                <Client/> 
-          </section>
+          </section> */}
 
           <section id="Blog">
                <Blog /> 
           </section>
 
-          <section id="Footer">
+          {/* <section id="Footer">
                <Footer /> 
           </section> */}
 

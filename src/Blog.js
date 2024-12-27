@@ -12,7 +12,7 @@ const Blog =()=>{
     <div className="clients">
       <div className="card1">
         <img src={i}></img>
-        <h2>blog title goes here</h2>
+        <h2>Blog Title Goes Here</h2>
         <p>
         Lorem Ipsum, Dolor Sit Amet Consectetur Adipisicing Elit. Provident, Eius
         </p>
@@ -20,7 +20,7 @@ const Blog =()=>{
         </div>
       <div className="card1">
         <img src={im}></img>
-        <h2>blog title goes here</h2>
+        <h2>Blog Title Goes Here</h2>
         <p>
         Lorem Ipsum, Dolor Sit Amet Consectetur Adipisicing Elit. Provident, Eius
         </p>
@@ -29,7 +29,7 @@ const Blog =()=>{
         <div className="card1">
           <img src={imag}></img> 
           <h2>
-          blog title goes here</h2> 
+          Blog Title Goes Here</h2> 
           <p>
           Lorem Ipsum, Dolor Sit Amet Consectetur Adipisicing Elit. Provident, Eius
           </p>
