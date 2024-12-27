@@ -2,9 +2,10 @@
 .clients {
     display: flex;
     justify-content: space-evenly;
-    padding-top: 100px; 
+    padding-top: 50px; 
     text-align: center;
     background-color: white;
+    align-items: center;
 
     
   }
@@ -35,6 +36,7 @@
   
   .client-card:hover p {
     color: white;
+
   }
   
   .client-card:hover h5 {

@@ -71,30 +71,5 @@
   .first button:hover {
     background-color: #16a085;
   }
-  @media (max-width: 768px) {
-    .first {
-      width: 80%; 
-      
-    }
-  }
-  
-  
-  @media (max-width: 480px) {
-    .first {
-      width: 100%; 
-      height: auto; 
-    }
-    .first button{
-      width: 130px;
-    }
-  
-    .paper h1 {
-      font-size: 1.8rem; 
-      margin-left: 10%;
-      
-    } 
-    .paper{
-      margin-left: 40%;
-    }
-  }
+
   

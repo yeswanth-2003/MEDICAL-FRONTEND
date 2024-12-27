@@ -9,7 +9,7 @@ const Blog =()=>{
     return(
 
     <div className="our"><center><h1>OUR<span> BLOGS</span></h1></center>
-    <div className="clients">
+    <div className="clients-blog">
       <div className="card1">
         <img src={i}></img>
         <h2>Blog Title Goes Here</h2>

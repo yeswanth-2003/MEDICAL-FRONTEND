@@ -105,3 +105,54 @@
       margin: 10px 0;
     }
   }
+
+
+
+
+
+
+@media  screen and (max-width:1000px) and (min-width: 480px){
+  .booking-all{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+  }
+  .booking h1{
+    font-size: 30px;
+    margin:10px 0;
+    font-weight: bold;
+
+  }
+  .eight {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 2px solid #16a085;
+    margin-left: 0px;
+    border-radius: 10px;
+
+  }
+  .booking-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .eight button{
+    width: 100%;
+  }
+  .bookings{
+    width: 50%;
+  }
+  .compound{
+    width: 100%;
+  }
+  .bookings img{
+    width: 100%;
+
+    margin: 10px 0;
+  }
+
+}
