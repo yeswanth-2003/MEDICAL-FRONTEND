@@ -97,5 +97,10 @@
     .sb-footer-link a{
         font-size: 10px;    }
         .sb-footer-link p{
-          font-size: 10px;    }
+          font-size: 10px; 
+          margin: 0;
+           }
+           .sb-footer-link ul{
+            margin: 0;
+           }
    }
