@@ -5,6 +5,7 @@ import bed from "./images/bed.png";
 import  hospi from "./images/health.png";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./Homee.css";
+import { IoIosArrowForward } from "react-icons/io";
 
 
 function Home (){
@@ -17,7 +18,7 @@ function Home (){
         <div className="contentone">
             <h2>Stay Safe, Stay<br></br> Healthy</h2>
             <p>Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit.<br></br> Rem Sed Autem Vero? Magnam, Est Laboriosam!</p>
-            <button>Contact Us</button>
+            <button>Contact Us <span><IoIosArrowForward/></span></button>
      
       </div>
 
@@ -27,17 +28,17 @@ function Home (){
           <div className="second">
             <img src={media} alt=""/>
             <h3>140+</h3>
-            <p>doctors at work</p>
+            <p>Doctors At Work</p>
         </div> 
         <div className="second">
             <img src={friend} alt=""/>
             <h3>1040+</h3>
-            <p>satisfied patients</p>
+            <p>Satisfied Patients</p>
         </div> 
         <div className="second">
             <img src={bed} alt=""/>
             <h3>500+</h3>
-            <p>bed facility</p>
+            <p>Bed Facility</p>
         </div> 
         <div className="second">
             <img src={hospi} alt=""/>

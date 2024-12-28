@@ -199,6 +199,10 @@ margin-left:30px;
       margin: 0 0;
       padding: 0 0;
     }
+    .navbar h3{
+      font-size: 20px;
+      color: #444444;
+    }
     .navbar{
       margin: 0 0;
       width: 100%;

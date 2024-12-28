@@ -12,11 +12,18 @@
     box-sizing: border-box;
     border: 2px solid #16a085;
     margin-left: 50px;
+    box-shadow: .2rem .2rem 0 rgba(22, 160, 133, .2);
+
 
   }
   .booking h1{
+    text-shadow:  .2rem .2rem 0 rgba(0, 0, 0, .2);
     margin-left:520px;
     font-size: 50px;
+  }
+  .booking span{
+    text-shadow:  .2rem .2rem 0 rgba(0, 0, 0, .2);
+
   }
   
   
@@ -73,9 +80,10 @@
       align-items: center;
       width: 100%;
       text-align: center;
+      padding: 12px;
     }
     .booking h1{
-      font-size: 30px;
+      font-size: 40px;
       margin:10px 0;
       font-weight: bold;
       margin-top: 50px;
@@ -94,7 +102,7 @@
     .booking-main{
       display: flex;
       flex-direction: column;
-      width: 80%;
+      width: 100%;
     }
     .eight button{
       width: 100%;

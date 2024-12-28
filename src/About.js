@@ -1,6 +1,8 @@
 import React from 'react'
 import img from './images/doctorr.png';
 import "./About.css";
+import { IoIosArrowForward } from "react-icons/io";
+
 
 const About = () => {
   return (
@@ -18,7 +20,7 @@ const About = () => {
               Odit Tempora Ipsam Qui, Quisquam Quis Facere Iste Fuga, Minus <br></br>Nesciunt.
 
               Lorem Ipsum Dolor, Sit Amet Consectetur Adipisicing Elit. Natus Vero<br></br> Ipsam Laborum Porro Voluptates Voluptatibus A Nihil Temporibus<bt></bt> Deserunt Vel?</p>
-              <button>Learn More</button>
+              <button>Learn More<span><IoIosArrowForward/></span></button>
       </div>
 
 

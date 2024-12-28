@@ -57,11 +57,20 @@
     width: 200px;
     box-shadow: .2rem .2rem 0 rgba(22, 160, 133, .2);
   }
-  
-  .contentone button:hover {
+
+
+.contentone button:hover {
     background-color: #16a085;
     color: white;
-  }
+}
+
+.contentone button:hover span {
+    color: #16a085;
+    background-color: white;
+    transform: translateX(10px); 
+    transition: transform 1s ease;
+
+}
   
   
   .boxes {
@@ -90,6 +99,8 @@
     font-weight: bold;
     color: #333;
     margin-bottom: 10px;
+    text-shadow:  .2rem .2rem 0 rgba(0, 0, 0, .2);
+
   }
   
   .second p {
@@ -97,8 +108,19 @@
     color: #777;
   }
   .contentone button{
+    display: flex;
     font-size: 16px;
     text-align: center;
+  }
+
+  .contentone button span {
+    width: 25px;
+    margin-left: 10px;
+    border-radius: 5px;
+    height: 25px;
+    padding: 0 0;
+    background-color: #16a085;
+    color: white;
   }
 
 @media  screen and (max-width:480px) and (min-width: 320px){
@@ -133,11 +155,12 @@
     width : 100%;
   }
   .contentone button {
-    width: 150px;
+    width: 180px;
     font-weight: 400;
     padding-bottom: 8px 8px;
   }
   .boxes {
+  
     display: flex;
     justify-content: space-between;
     margin: 10px 0;
@@ -154,18 +177,18 @@
   }
   
   .second img {
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
     margin-bottom: 10px;
   }
   
   .second h3 {
-    font-size: 15px;
+    font-size: 36px;
     margin-bottom: 5px;
   }
   
   .second p {
-    font-size: 10px;
+    font-size: 13.6px;
   }
   
 }
