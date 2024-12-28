@@ -34,7 +34,7 @@ function Book(){
     return(
         <div className="booking-all">
         <div className="booking">
-            <h1><span>Book</span> Now</h1>
+           <center> <h1><span>Book</span> Now</h1></center>
 
         </div>
         <div className="booking-main">
