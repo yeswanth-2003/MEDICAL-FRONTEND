@@ -22,7 +22,7 @@
       height: 200px;
       margin: 10px;
       border: 2px solid #16a085;
-    
+      border-radius: 10px;
     }
     
     .third {
@@ -152,5 +152,16 @@
   .icons{
     margin-bottom: 10px;
   }
+
+}
+
+
+
+@media  screen and (max-width:1024px) and (min-width: 768px){
+.third{
+  width: 45%;
+  border-radius: 10px;
+}
+
 
 }

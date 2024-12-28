@@ -137,7 +137,7 @@ function Footer(){
           </div>
         </div>
       </div>
-      <div class="bor-line">
+      <div className="bor-line">
         
       </div>
 

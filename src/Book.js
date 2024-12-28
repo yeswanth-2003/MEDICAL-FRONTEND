@@ -39,11 +39,6 @@ function Book(){
         </div>
         <div className="booking-main">
 
-        
-     {/* <div className="booking">
-      <center>  <h1><span>Book</span> Now</h1></center>
-
-     </div> */}
      <div className="bookings">
         <img src={book} alt=""/>
      </div>

@@ -137,3 +137,33 @@
       margin: 0;
     }
   }
+
+
+  @media  screen and  (min-width: 1500px){
+      .cardten{
+        margin: 0 10%;
+        width: 80%;
+      }
+      
+  }
+
+
+  @media  screen and (max-width:768px) and (min-width: 425px){
+  .cardten{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .first{
+    width: 45%;
+  }
+  
+  }
+
+
+  @media  screen and (max-width:1024px) and (min-width: 768px){
+    .first{
+      width:45%;
+      height: fit-content;
+    }
+  }
