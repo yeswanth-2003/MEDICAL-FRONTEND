@@ -91,6 +91,9 @@
     .sb-footer-section-padding{
       display: flex;
     }
+    .sb-footer-link-ajju{
+      padding: 5px;
+    }
     .sb-footer-link a{
         font-size: 12px;    }
    }
