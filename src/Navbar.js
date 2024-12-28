@@ -43,8 +43,8 @@ const togglemenu=()=>{
               <li><a href="#Services"> Services </a></li>
               <li><a href="#About"> About </a></li>
               <li><a href="#Book"> Book </a></li>
-              <li><a href="#Doctors"> Doctors </a></li>
-              <li><a href="#Blogs"> Blogs </a></li>
+              <li><a href="#Doctor"> Doctors </a></li>
+              <li><a href="#Blog"> Blogs </a></li>
               <li><a href="#Review"> Review </a></li>
             </ul>
           </nav>
