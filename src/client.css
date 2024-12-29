@@ -142,7 +142,8 @@
     font-size: 12px;
   }
   .client-card{
-    height: 350px;
+    height: fit-content;
+    width: auto;
   }
   
   }

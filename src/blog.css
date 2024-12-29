@@ -155,9 +155,11 @@ button:hover {
       .clients-blog{
         width: 100%;
         align-items:start;
+        padding: 0 10%;
       }
       .card1{
-        width: 45%;
+        width: 80%;
+        margin: 10px 10%;
       }
       
       }

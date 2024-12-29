@@ -155,7 +155,8 @@
     justify-content: center;
   }
   .first{
-    width: 45%;
+    width: 100%;
+    height: fit-content;
   }
   
   }

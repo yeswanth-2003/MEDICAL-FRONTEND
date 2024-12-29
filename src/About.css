@@ -62,12 +62,7 @@
         text-shadow:  .2rem .2rem 0 rgba(0, 0, 0, .2);
     }
 }
-/* button:hover {
-    background-color: #16a085;
-  }
-  .content button{
-    width:150px;
-  } */
+
 
 @media  screen and (max-width:785px) and (min-width: 320px){
     .aboutt h1{
@@ -75,25 +70,35 @@
 font-weight: bold;      
   margin-top: 50px;
     }
+    .aboutt{
+        margin: 0;
+    }
     .aboutt button {
         width: 180px;
         font-weight: 400;
         padding-bottom: 8px 8px;
       }
     .content{
-        margin-top: -150px;
+        margin-top: -30px;
+        margin-left: 0;
     }
     .img{
         display: flex;
         flex-direction: column;
-        width: 100%;
-        margin: 0 0;
+        width: 80%;
+        margin: 0 10%;
+        padding: 0 0;
         align-items: center;
     }
     .image{
         width: 100%;
+        padding: 0;
         margin: 0 0;
     }
+    .image img {
+        width: 100%;
+
+    };
     .content{
         margin: 0 0;
         width: 100%;
@@ -162,9 +167,9 @@ font-weight: bold;
 
 
 
-@media  screen and (max-width:1440px) and (min-width:759px) {
+/* @media  screen and (max-width:1440px) and (min-width:759px) {
     .img{
         padding: 0;
-        margin: 0 10%;
+        margin: 0 0;
     }
-}
+} */
