@@ -18,7 +18,7 @@ function Book(){
 
      e.preventDefault();
 
-         const response = await fetch('',{
+         const response = await fetch('http://localhost:5000/booking/newbooking',{
              method:"Post",
              body:JSON.stringify(form),
              headers: {
@@ -46,9 +46,9 @@ function Book(){
      <div className="compound">
         <div className="eight">
             <center><h2>Book Appointment</h2></center>
-             <input name="name" type="Name" placeholder="Your name" id="Name" onChange={handlechange} value={form.name}></input><br></br>
+             <input name="name" type="text" placeholder="Your name" id="Name" onChange={handlechange} value={form.name}></input><br></br>
             <input name="number" type="Number" placeholder="Your number" id="Number" onChange={handlechange} value={form.number}></input><br></br>
-            <input name=" email" type="email" placeholder="Your email" id="email" onChange={handlechange} value={form.email}></input><br></br>
+            <input name="email" type="email" placeholder="Your email" id="email" onChange={handlechange} value={form.email}></input><br></br>
             <input name="dob" type="Date" placeholder="dd-mm-yyyy" id="Name" onChange={handlechange} value={form.dob}></input><br></br>
             <center>    <button type="submit">Book Now</button></center>
         </div>
