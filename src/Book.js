@@ -29,7 +29,10 @@ function Book(){
        
          const data = await response.json();
          console.log(data)
- }
+         if(data.message === "booking success"){
+                alert("Booking Successfull")
+        }
+    }
 
 
     return(
@@ -59,4 +62,6 @@ function Book(){
      </div>
     )
 }
+
+
 export default Book;
