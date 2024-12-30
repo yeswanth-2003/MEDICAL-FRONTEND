@@ -18,7 +18,7 @@ function Book(){
 
      e.preventDefault();
 
-         const response = await fetch('http://localhost:5000/booking/newbooking',{
+         const response = await fetch('https://medical-backend-p7o2.onrender.com/booking/newbooking',{
              method:"Post",
              body:JSON.stringify(form),
              headers: {
@@ -26,6 +26,7 @@ function Book(){
              },
              mode:'cors'
          })
+       
          const data = await response.json();
          console.log(data)
  }
