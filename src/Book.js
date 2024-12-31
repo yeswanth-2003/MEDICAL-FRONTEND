@@ -18,6 +18,7 @@ function Book(){
 
      e.preventDefault();
 
+
          const response = await fetch('https://medical-backend-p7o2.onrender.com/booking/newbooking',{
              method:"Post",
              body:JSON.stringify(form),
