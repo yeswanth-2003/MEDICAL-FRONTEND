@@ -19,7 +19,8 @@ function Book(){
      e.preventDefault();
 
 
-         const response = await fetch('https://medical-backend-p7o2.onrender.com/booking/newbooking',{
+            const response = await fetch('https://medical-backend-main.onrender.com/booking/appointment',{
+
              method:"Post",
              body:JSON.stringify(form),
              headers: {
@@ -30,7 +31,7 @@ function Book(){
        
          const data = await response.json();
          console.log(data)
-         if(data.message === "booking success"){
+         if(data.message === "Appointment booked successfully. OTP sent to your phone and WhatsApp."){
                 alert("Booking Successfull")
         }
     }

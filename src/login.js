@@ -34,7 +34,7 @@ function LoginRegister() {
 
             e.preventDefault();
     
-                const response = await fetch('https://medical-backend-p7o2.onrender.com/register/signup',{
+                    const response = await fetch('https://medical-backend-main.onrender.com/register/signup',{
                     method:"Post",
                     body:JSON.stringify(form),
                     headers: {
@@ -64,7 +64,7 @@ function LoginRegister() {
 
            e.preventDefault();
    
-               const response = await fetch('https://medical-backend-p7o2.onrender.com/login/signin',{
+                const response = await fetch('https://medical-backend-main.onrender.com/login/signin',{
                    method:"Post",
                    body:JSON.stringify(form1),
                    headers: {
