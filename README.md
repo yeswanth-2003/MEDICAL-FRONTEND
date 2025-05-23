@@ -22,7 +22,6 @@ You can try the demo live on Vercel:
 
 **[Hospital Appointment Booking Demo on Vercel](https://medical-frontend.vercel.app/)**
 
-> Replace the above link with your actual Vercel deployment URL if it differs.
 
 ## Getting Started
 
