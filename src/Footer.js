@@ -141,10 +141,10 @@ function Footer(){
         
       </div>
 
-      // <div className="end">
+      <div className="end">
 
-      // <center>  <p>Created by <span>Zaki Chowdhury</span>. | All Right Reserved</p></center>
-      // </div>
+      <center>  <p>Created by <span>Chepuri Yeswanth</span>. </p></center>
+      </div>
     </div>
     )
 }
